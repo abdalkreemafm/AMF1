@@ -1,24 +1,25 @@
+pkg install -y wget
 
-# AMF1
+pkg install -y openssh
 
+pkg install -y curl
 
+pkg install -y php
+pkg install -y git 
+git clone https://github.com/thelinuxchoice/saycheese
 
-تثبيت الاساسيات تلقائي 
+ls
 
+cd saycheese
 
-pkg install python 
+ls
 
+chmod 777 * 
 
-pkg install git
+ls
 
+cd saycheese
 
-git clone https://github.com/abdalkreemafm/AMF1
+ls
 
-
-cd AMF1
-
-
-chmod +x AMF1.py
-
-
-python AMF1.py
+./saycheese.sh
